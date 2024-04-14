@@ -21,7 +21,7 @@ which end with io (example@example.io) */
 
 function ioEmail(email){
     // Add your logic.
-    let pateernio = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(io)$/;
+    let pateernio = /^[a-zA-Z]+@[a-zA-Z0-9.-]+.\io$/g;
     return pateernio.test(email);
 }
 // let result = ioEmail('example@example.io');
