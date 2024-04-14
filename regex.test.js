@@ -23,6 +23,7 @@ function ioEmail(email){
     // Add your logic.
     let pateernio = /^[a-zA-Z]+@[a-zA-Z0-9.-]+.\io$/g;
     return pateernio.test(email);
+    
 }
 // let result = ioEmail('example@example.io');
 // console.log(result)
